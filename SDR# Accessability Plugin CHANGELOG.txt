@@ -1,0 +1,69 @@
+SDR# Asscessibilty Plugin - CHANGE LOG
+
+
+Version 1.0 - Initial Release
+
+
+Version 1.1 - 03/11/2019 - MINOR UPDATE
+
+	- Fixed spelling error in code and settings from "Accessability" to "Accessibilty"
+
+	- Fixed tool tip text on OSD settings Dwell Time track bar to read "Dwell Time" instead of "Brightness"
+
+	- Added "K" key to shortcuts. Pesss and hold down "K" to enter manual frequency entry mode. 
+	  While holding down the "K" key, press number 0 thru 9 until desired frequency is input.
+	  Release "K" key. Frequency will now set in SDR# 
+ 
+
+Version 2.0 - 14/11/2019 - MAJOR UPDATE
+
+	- Changed FM band to start at 87.5 Mhz (now matches band plan)
+	- Change 70 cm band start to 420 Mhz (now matches band plan)
+	- Changed am band start to 527 mhz (now matches band plan)
+
+	- Fixed on screen display to only show squelch toggle changes when the user presses the checkbox on the toolbar
+
+	- Added CONTROL + X key shortcut to toggle suspending of shortcuts keys
+
+	- Added colored hint text in spectrum analyzer when shortcuts control suspended
+
+	- Moved detector indicator in the spectrum analyzer more to the left so it doesnt interfere with the spectrum analyzer SNR Meter
+
+	- Added H key shortcut - will show / hide shortcuts key assignments dialog
+	- Changed K key shortcut - Removed old direct frequency entry method. Added new simpler method which shows dialog box. This allows easy direct frequency input
+
+	- Added Resource Meter toolbar - For each unique instance shows: process ID, total number of threads, the total memory and the percentage used and CPU useage
+	- Added Spectrum Stepper toolbar - Can step the analyzer window by custom step size or the full width of the spectrum analyzer window.
+
+	- Added custom icons to dialogs
+	- Dialogs boxes are now shown in the taskbar
+
+	- Fixed version label on the plugin control panel to change color properly at startup
+
+	- Improved load time of toolbar controls.
+
+	- Toolbar controls shown after entire control is loaded instead of during load (reduced flicker)
+	- Toolbar shows wait icon while loading toolbar buttons
+
+	- Added missing tool tips for some controls
+
+	- Many code optimizations to reduce resource usage and load time
+
+Version 2.1 - 18/12/2019 - MINOR UPDATE
+
+	- Changed the label on the Accessibilty Plugin Key Legend from lables to textboxes (aids screen readers in reading shortcut assignments)
+	- Added new buttons to Band Switches - 12,15,17 and 60 Meter buttons.
+	- Remapped shortcuts to band switch shortcuts and added 12,15,17 and 60 meter band shortcuts
+	- Added a black background to the plugin status and detector status indicators on the spectrum analyzer to help give better visibility when band plan plugin used.
+	- Change the direct frequency entry method as requested by many users.
+
+Version 3.0 - 6/2/2020 - Major Update
+
+	- Added the SNR Meter back into the toolbar.
+	- Added the ability to change the color of the SNR Meter by double clicking on it with the mouse (green, blue, red, yellow, amber, silver).
+	- Added the ability to hide the form borders on the floating (undocked) toolbar.
+	- Added the ability to click and drag the floating (undocked toolbar) by dragging on eithe the left or right end of the toolbar.
+
+
+
+ 

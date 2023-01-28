@@ -1,0 +1,1 @@
+<add key="Accessibility Control" value="SDRSharp.AccessibilityPlugin.AccessibilityPlugin,SDRSharp.AccessibilityPlugin" />
